@@ -4,6 +4,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 @import url("https://fonts.googleapis.com/css?family=Lato:300,300italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Adamina:300,300italic,400,600");
+@import url("https://fonts.googleapis.com/css?family=Lora:300,300italic,400,600");
 
 /*
 	Prologue by HTML5 UP
@@ -284,10 +286,36 @@
 		}
 
 		p {
-			font-family: "Lato";
+			/* font-family: "Lato"; */
+			font-family:  "Source Sans Pro", sans-serif;
 		}
 
 	}
+
+	  article{
+			color: #fff;
+			background-color: #fff;
+
+			h1, h2, h3, h4, h5, h6 {
+				font-family: "Lora", sans-serif;
+				font-weight: 300;
+				color: #000;
+				line-height: 1.5em;
+			}
+			p{
+				font-weight: 100;
+				color: #000;
+				margin-left: 7em;
+				margin-right: 7em;
+				font-family: "Lora", sans-serif;
+				font-size: 19px;
+			}
+			strong, b{
+				color: #000;
+				font-size: 19px;
+				font-weight: 999;
+			}
+		}
 
 /* Image */
 
@@ -706,6 +734,7 @@
 				p {
 					font-style: italic;
 				}
+
 			}
 		}
 		> section, article {
