@@ -88,7 +88,7 @@
 	  animation: move-chevron 3s ease-out 2s infinite;
 	}
 
-	.chevron:before,
+  .chevron:before,
 	.chevron:after {
 	 content: '';
 	 position: absolute;
@@ -125,6 +125,7 @@
 	  opacity: 0;
 	  transform: translateY($base * 8) scale(0.5);
 	 }
+ }
 /* forcing no-wrap in line*/
 	.nowrap {
 	  white-space: nowrap ;
